@@ -44,3 +44,13 @@ except ZeroDivisionError:
     print("Divided by zero")
 except (ValueError, TypeError):
     print("Error occurred")
+
+"""
+um bloco except sem condições pode ser usado e vai tetectar qualquer erro.
+mas deve ser usado com moderação, pois podem detectar erros inesperados e ocultar erros de programação
+"""
+try:
+    word = "spam"
+    print(word / 0)
+except:
+    print("An error occurred")
