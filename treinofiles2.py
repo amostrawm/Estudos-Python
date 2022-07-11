@@ -1,2 +1,7 @@
-with open("filename.txt") as f:
-   print(f.read())
+file = open("books.txt", "r")
+
+cont = file.read()
+print(cont)
+
+
+file.close()
