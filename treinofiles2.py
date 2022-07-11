@@ -1,7 +1,7 @@
 file = open("books.txt", "r")
 
-cont = file.read()
-print(cont)
-
-
+for i in file:
+    book_letter = i[0]
+    book_len = len(i.replace("\n", ""))
+    print(book_letter + str(book_len))
 file.close()
