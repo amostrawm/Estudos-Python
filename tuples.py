@@ -3,7 +3,6 @@ import math
 p1 = (23, -88)
 p2 = (6, 42)
 
-#your code goes here
 xd = (p1[0] - p2[0])
 xdistance = xd
 
